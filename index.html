@@ -365,13 +365,35 @@ Skip to content</a>
 </div>
 <div class="elementor-element elementor-element-0c5810f elementor-widget elementor-widget-heading" data-id="0c5810f" data-element_type="widget" data-widget_type="heading.default">
 <div class="elementor-widget-container">
-<title>PERSONAL DETAILS / SKILLS / EXPERIENCES</title>
+<title>PERSONAL DETAILS</title>
+
+<div class="elementor-element elementor-element-0866b97 elementor-align-justify elementor-widget elementor-widget-button" data-id="0866b97" data-element_type="widget" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<title>SKILLS</title>
+
+<div class="elementor-element elementor-element-0866b97 elementor-align-justify elementor-widget elementor-widget-button" data-id="0866b97" data-element_type="widget" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<title>EXPERIENCES</title>
 <style>
+      :root {
+            --color-default: #333;
+            --color-primary: #3498db;
+            --color-secondary: #2ecc71;
+            --color-tertiary: #e74c3c;
+            --color-quaternary: #9b59b6;
+            --color-quinary: #f1c40f;
+        }
 
         body {
             font-family: 'Arial', sans-serif;
             color: var(--color-default);
             background-color: #f8f8f8;
+        }
+
+        h1 {
+            color: var(--color-primary);
         }
 
         .color-option {
@@ -380,6 +402,26 @@ Skip to content</a>
             border-radius: 5px;
             color: white;
             text-align: center;
+        }
+
+        .primary {
+            background-color: var(--color-primary);
+        }
+
+        .secondary {
+            background-color: var(--color-secondary);
+        }
+
+        .tertiary {
+            background-color: var(--color-tertiary);
+        }
+
+        .quaternary {
+            background-color: var(--color-quaternary);
+        }
+
+        .quinary {
+            background-color: var(--color-quinary);
         }
 
         .elementor-button {
@@ -392,8 +434,42 @@ Skip to content</a>
             transition: background-color 0.3s ease;
         }
 
+        .elementor-button.primary {
+            background-color: var(--color-primary);
+        }
+
+        .elementor-button.secondary {
+            background-color: var(--color-secondary);
+        }
+
+        .elementor-button.tertiary {
+            background-color: var(--color-tertiary);
+        }
+
+        .elementor-button.quaternary {
+            background-color: var(--color-quaternary);
+        }
+
+        .elementor-button.quinary {
+            background-color: var(--color-quinary);
+        }
+
         .elementor-button:hover {
             opacity: 0.8;
+        }
+
+        .additional-info {
+            display: none;
+            border: 1px solid var(--color-primary);
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+            background-color: #fff;
+        }
+
+        .title {
+            cursor: pointer;
+            color: var(--color-primary);
         }
 
         .title h4 {
@@ -420,8 +496,6 @@ Skip to content</a>
             }
         }
     </script>
-  
-
 </style>
 </head>
 <body>
