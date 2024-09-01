@@ -366,18 +366,15 @@ Skip to content</a>
 <div class="elementor-widget-container">
 <title>PERSONAL DETAILS</title>
 
-
 <div class="elementor-element elementor-element-0866b97 elementor-align-justify elementor-widget elementor-widget-button" data-id="0866b97" data-element_type="widget" data-widget_type="button.default">
 <div class="elementor-widget-container">
 <div class="elementor-button-wrapper">
 <title>SKILLS</title>
 
-
 <div class="elementor-element elementor-element-0866b97 elementor-align-justify elementor-widget elementor-widget-button" data-id="0866b97" data-element_type="widget" data-widget_type="button.default">
 <div class="elementor-widget-container">
 <div class="elementor-button-wrapper">
-<title>EXPERIENCE</title>
-
+<title>EXPERIENCES</title>
 <style>
       :root {
             --color-default: #333;
@@ -462,7 +459,7 @@ Skip to content</a>
 
         .additional-info {
             display: none;
-            border: 1px solid var(--color-primary);
+            border: 1px solid var(--color-quaternary);
             padding: 10px;
             border-radius: 5px;
             margin-top: 10px;
@@ -502,22 +499,12 @@ Skip to content</a>
 </head>
 <body>
 
-</style><h1 class="elementor-heading-title elementor-size-default">KENNETH<br>TEBOGO<br>KHONDOWE</h1> </div>
+<div class="title-container">
+
+    <span class="title" onclick="toggleVisibility('personal-details')"><h4>PERSONAL DETAILS</h4></span>
+    <span class="title" onclick="toggleVisibility('skills')"><h4>SKILLS</h4></span>
+    <span class="title" onclick="toggleVisibility('experiences')"><h4>EXPERIENCES</h4></span>
 </div>
-<div class="elementor-element elementor-element-0c5810f elementor-widget elementor-widget-heading" data-id="0c5810f" data-element_type="widget" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<title>PERSONAL DETAILS</title>
-
-<div class="elementor-element elementor-element-0866b97 elementor-align-justify elementor-widget elementor-widget-button" data-id="0866b97" data-element_type="widget" data-widget_type="button.default">
-<div class="elementor-widget-container">
-<div class="elementor-button-wrapper">
-<title>SKILLS</title>
-
-<div class="elementor-element elementor-element-0866b97 elementor-align-justify elementor-widget elementor-widget-button" data-id="0866b97" data-element_type="widget" data-widget_type="button.default">
-<div class="elementor-widget-container">
-<div class="elementor-button-wrapper">
-<title>EXPERIENCES</title>
-<style>
 
 <div id="personal-details" class="additional-info">
 <p>I am Kenneth Tebogo Khondowe, a dedicated student with a passion for computer sciences, physics, and mathematics. Born on June 25, 1998, I have spent my academic journey delving deep into these subjects, exploring their intricacies and discovering the endless possibilities they offer.My love for computer sciences drives me to explore the ever-evolving world of technology, from coding and software development to cybersecurity and artificial intelligence. 
@@ -546,6 +533,17 @@ believe in the power of education to transform lives and make a positive impact 
 <p><h4>Coding and Web Development.</h4> I am a passionate coder and web developer with a keen interest in crafting innovative digital solutions. Over the years, I have honed my skills in various programming languages and technologies, specializing in front-end and back-end web development. In my professional journey, I have tackled diverse projects ranging from creating responsive and user-friendly websites to developing robust web applications. Leveraging my expertise in HTML, CSS, and JavaScript, I have designed captivating user interfaces and implemented dynamic functionalities to enhance user experience. Moreover, I am proficient in utilizing frameworks and libraries such as React.js and AngularJS to build scalable and interactive web applications. My experience extends to server-side programming with languages like Node.js and Python, enabling me to develop efficient back-end systems and RESTful APIs. Throughout my career, I have embraced continuous learning and staying updated with emerging technologies and industry trends. This proactive approach has empowered me to adapt to evolving challenges and deliver high-quality solutions that meet the dynamic needs of clients and end-users. With a strong foundation in coding principles, coupled with a creative mindset and a drive for excellence, I am committed to pushing boundaries and contributing meaningfully to the ever-evolving field of web development.
 </p>
 </div>
+
+<script>
+    function toggleVisibility(id) {
+        var element = document.getElementById(id);
+        if (element.style.display === "none") {
+            element.style.display = "block";
+        } else {
+            element.style.display = "none";
+        }
+    }
+</script>
 
 </div>
 </div>
