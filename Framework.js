@@ -15,6 +15,38 @@
 	}
 	</script>
 <script type="text/javascript">
+
+	var isInIFrame = ( window.self !== window.top ) ? true : false;
+
+	if(! isInIFrame ) {
+		var jsData = ["showcase-cta-google-fonts","\/\/fonts.googleapis.com\/css?family=DM%20Sans%3A400%2C500%2C700&subset=latin%2Clatin-ext"];
+		var style = document.createElement('link');
+		style.setAttribute('id', jsData[0]);
+		style.setAttribute('rel', 'stylesheet');
+		style.setAttribute('type', 'text/css');
+		style.setAttribute('media', 'all');
+		style.setAttribute('href', jsData[1]);
+
+		document.head.appendChild(style);
+	}
+	</script>
+<script type="text/javascript">
+
+	var isInIFrame = ( window.self !== window.top ) ? true : false;
+
+	if(! isInIFrame ) {
+		var jsData = ["showcase-cta","https:\/\/websitedemos.net\/alexandrina-designer-bio-02\/wp-content\/plugins\/astra-sites-server\/admin\/showcase-cta\/switcher\/dist\/style-main.css?ver=308d53dc52d1fcf8ca1e"];
+		var style = document.createElement('link');
+		style.setAttribute('id', jsData[0]);
+		style.setAttribute('rel', 'stylesheet');
+		style.setAttribute('type', 'text/css');
+		style.setAttribute('media', 'all');
+		style.setAttribute('href', jsData[1]);
+
+		document.head.appendChild(style);
+	}
+	</script>
+<script type="text/javascript">
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
