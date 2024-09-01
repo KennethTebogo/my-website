@@ -64,7 +64,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         }
     }
 </script>
-
+<script>
+        function toggleVisibility(id) {
+            var element = document.getElementById(id);
+            if (element.style.display === "none" || element.style.display === "") {
+                element.style.display = "block";
+            } else {
+                element.style.display = "none";
+            }
+        }
+    </script>
 </script>
 <script src="https://websitedemos.net/alexandrina-designer-bio-02/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=4.6.14" id="astra-theme-js-js"></script>
 <script src="https://websitedemos.net/alexandrina-designer-bio-02/wp-includes/js/dist/vendor/react.min.js?ver=18.2.0" id="react-js"></script>
