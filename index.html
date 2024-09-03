@@ -376,7 +376,7 @@ Skip to content</a>
 <div class="elementor-button-wrapper">
 <title>EXPERIENCES</title>
 <style>
-	:root {
+      :root {
             --color-default: #333;
             --color-primary: #3498db;
             --color-secondary: #2ecc71;
@@ -384,12 +384,11 @@ Skip to content</a>
             --color-quaternary: #9b59b6;
             --color-quinary: #f1c40f;
         }
-         body {
-            background-color: #007bff; /* Blue background color */
-            color: white; /* Adjust text color for readability */
-            font-family: Arial, sans-serif; /* Optional: set a default font */
-            margin: 0;
-            padding: 0;
+
+        body {
+            font-family: 'Arial', sans-serif;
+            color: var(--color-default);
+            background-color: #f8f8f8;
         }
 
         h1 {
@@ -460,7 +459,7 @@ Skip to content</a>
 
         .additional-info {
             display: none;
-            border: 1px solid var(--color-primary);
+            border: 1px solid var(--color-quaternary);
             padding: 10px;
             border-radius: 5px;
             margin-top: 10px;
@@ -496,79 +495,56 @@ Skip to content</a>
             }
         }
     </script>
+</style>
 </head>
 <body>
-    <div class="elementor-widget-container">
-        <!-- Button to toggle personal details -->
-        <div class="elementor-button-wrapper">
-            <a class="elementor-button btn-personal-details" href="#" onclick="toggleVisibility('personal-details'); return false;">
-                <h4>PERSONAL DETAILS</h4>
-            </a>
-        </div>
-    </div>
 
-    <!-- Personal Details Section -->
-    <div id="personal-details" class="additional-info">
-        <p>
-            <strong>Personal and Confidential:</strong><br>
-            I am Kenneth Tebogo Khondowe, a dedicated student with a passion for computer sciences, physics, and mathematics. Born on June 25, 1998, I have spent my academic journey delving deep into these subjects, exploring their intricacies and discovering the endless possibilities they offer. My love for computer sciences drives me to explore the ever-evolving world of technology, from coding and software development to cybersecurity and artificial intelligence. I thrive on challenges and enjoy unraveling complex problems through logical thinking and analytical reasoning. In addition to computer sciences, my fascination with physics and mathematics has provided me with a solid foundation in understanding the fundamental principles that govern the universe. I am captivated by the beauty of equations and the elegance of scientific theories, constantly seeking to expand my knowledge and grasp the mysteries of the cosmos. As a student, I am committed to excellence in both academics and personal growth. I believe in the power of education to transform lives and make a positive impact on society. With a curious mind and a thirst for knowledge, I eagerly embrace new opportunities to learn and grow, aspiring to make meaningful contributions to the fields of science and technology.
-        </p>
-    </div>
+<div class="title-container">
 
-    <div class="elementor-widget-container">
-        <!-- Button to toggle skills -->
-        <div class="elementor-button-wrapper">
-            <a class="elementor-button btn-skills" href="#" onclick="toggleVisibility('skills'); return false;">
-                <h4>SKILLS</h4>
-            </a>
-        </div>
-    </div>
+    <span class="title" onclick="toggleVisibility('personal-details')"><h4>PERSONAL DETAILS</h4></span>
+    <span class="title" onclick="toggleVisibility('skills')"><h4>SKILLS</h4></span>
+    <span class="title" onclick="toggleVisibility('experiences')"><h4>EXPERIENCES</h4></span>
+</div>
 
-    <!-- Skills Section -->
-    <div id="skills" class="additional-info">
-        <p>
-            <strong>Coding Skills and Languages:</strong>
-            <ul>
-                <li>1. Coding: Python, Java</li>
-                <li>2. Software Development: Android Studio</li>
-                <li>3. Web Development: HTML, CSS, JavaScript</li>
-                <li>4. Frameworks: Django (Python), Spring (Java), React.js</li>
-                <li>5. Data Analysis: Pandas, NumPy, Matplotlib, seaborn</li>
-                <li>6. Database Management: SQL, SQLite</li>
-                <li>7. Version Control: Git</li>
-                <li>8. Problem-Solving: Logical thinking, Analytical reasoning</li>
-                <li>9. Continuous Learning: Eagerness to explore new technologies and frameworks</li>
-            </ul>
-        </p>
-    </div>
+<div id="personal-details" class="additional-info">
+<p>I am Kenneth Tebogo Khondowe, a dedicated student with a passion for computer sciences, physics, and mathematics. Born on June 25, 1998, I have spent my academic journey delving deep into these subjects, exploring their intricacies and discovering the endless possibilities they offer.My love for computer sciences drives me to explore the ever-evolving world of technology, from coding and software development to cybersecurity and artificial intelligence. 
+    
+I thrive on challenges and enjoy unraveling complex problems through logical thinking and analytical reasoning.In addition to computer sciences, my fascination with physics and mathematics has provided me with a solid foundation in understanding the fundamental principles that govern the universe. I am captivated by the beauty of equations and the elegance of scientific theories, constantly seeking to expand my knowledge and grasp the mysteries of the cosmos.As a student, I am committed to excellence in both academics and personal growth. I 
 
-    <div class="elementor-widget-container">
-        <!-- Button to toggle experiences -->
-        <div class="elementor-button-wrapper">
-            <a class="elementor-button btn-experiences" href="#" onclick="toggleVisibility('experiences'); return false;">
-                <h4>EXPERIENCES</h4>
-            </a>
-        </div>
-    </div>
+believe in the power of education to transform lives and make a positive impact on society. With a curious mind and a thirst for knowledge, I eagerly embrace new opportunities to learn and grow, aspiring to make meaningful contributions to the fields of science and technology.</p>
+</div>
 
-    <!-- Experiences Section -->
-    <div id="experiences" class="additional-info">
-        <p>
-            <strong>Coding and Web Development:</strong><br>
-            I am a passionate coder and web developer with a keen interest in crafting innovative digital solutions. Over the years, I have honed my skills in various programming languages and technologies, specializing in front-end and back-end web development. In my professional journey, I have tackled diverse projects ranging from creating responsive and user-friendly websites to developing robust web applications. Leveraging my expertise in HTML, CSS, and JavaScript, I have designed captivating user interfaces and implemented dynamic functionalities to enhance user experience. Moreover, I am proficient in utilizing frameworks and libraries such as React.js and AngularJS to build scalable and interactive web applications. My experience extends to server-side programming with languages like Node.js and Python, enabling me to develop efficient back-end systems and RESTful APIs. Throughout my career, I have embraced continuous learning and staying updated with emerging technologies and industry trends. This proactive approach has empowered me to adapt to evolving challenges and deliver high-quality solutions that meet the dynamic needs of clients and end-users. With a strong foundation in coding principles, coupled with a creative mindset and a drive for excellence, I am committed to pushing boundaries and contributing meaningfully to the ever-evolving field of web development.
-        </p>
-    </div>
+<div id="skills" class="additional-info">
+<p><h4> Coding Skills and Languages.</h4>
+<li>1.Coding: Python, Java</li>
+<li>2.Software Development: Android Studio</li>
+<li>3.Web Development: HTML, CSS, JavaScript</li>
+<li>4.Frameworks: Django (Python), Spring (Java), React.js</li>
+<li>5.Data Analysis: Pandas, NumPy, Matplotlib, seaborn</li>
+<li>6.Database Management: SQL, SQLite</li>
+<li>7.Version Control: Git</li>
+<li>8.Problem-Solving: Logical thinking, Analytical reasoning</li>
+<li>9.Continuous Learning: Eagerness to explore new technologies and frameworks</li></p>
 
-    <script>
-        function toggleVisibility(id) {
-            var element = document.getElementById(id);
-            if (element.style.display === "none" || element.style.display === "") {
-                element.style.display = "block";
-            } else {
-                element.style.display = "none";
-            }
+    </ul>
+</div>
+
+<div id="experiences" class="additional-info">
+<p><h4>Coding and Web Development.</h4> I am a passionate coder and web developer with a keen interest in crafting innovative digital solutions. Over the years, I have honed my skills in various programming languages and technologies, specializing in front-end and back-end web development. In my professional journey, I have tackled diverse projects ranging from creating responsive and user-friendly websites to developing robust web applications. Leveraging my expertise in HTML, CSS, and JavaScript, I have designed captivating user interfaces and implemented dynamic functionalities to enhance user experience. Moreover, I am proficient in utilizing frameworks and libraries such as React.js and AngularJS to build scalable and interactive web applications. My experience extends to server-side programming with languages like Node.js and Python, enabling me to develop efficient back-end systems and RESTful APIs. Throughout my career, I have embraced continuous learning and staying updated with emerging technologies and industry trends. This proactive approach has empowered me to adapt to evolving challenges and deliver high-quality solutions that meet the dynamic needs of clients and end-users. With a strong foundation in coding principles, coupled with a creative mindset and a drive for excellence, I am committed to pushing boundaries and contributing meaningfully to the ever-evolving field of web development.
+</p>
+</div>
+
+<script>
+    function toggleVisibility(id) {
+        var element = document.getElementById(id);
+        if (element.style.display === "none") {
+            element.style.display = "block";
+        } else {
+            element.style.display = "none";
         }
-    </script>
+    }
+</script>
+
 </div>
 </div>
 </div>
