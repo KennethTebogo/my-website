@@ -499,13 +499,16 @@ Skip to content</a>
 </head>
 <body>
 
-<div class="title-container">
-
-    <span class="title" onclick="toggleVisibility('personal-details')"><h4>PERSONAL DETAILS</h4></span>
-    <span class="title" onclick="toggleVisibility('skills')"><h4>SKILLS</h4></span>
-    <span class="title" onclick="toggleVisibility('experiences')"><h4>EXPERIENCES</h4></span>
-</div>
-
+	
+<div class="elementor-widget-container">
+        <!-- Button to toggle personal details -->
+        <div class="elementor-button-wrapper">
+            <a class="elementor-button btn-personal-details" href="#" onclick="toggleVisibility('personal-details'); return false;">
+                <h4>PERSONAL DETAILS</h4>
+            </a>
+        </div>
+    </div>
+	
 <div id="personal-details" class="additional-info">
 <p>I am Kenneth Tebogo Khondowe, a dedicated student with a passion for computer sciences, physics, and mathematics. Born on June 25, 1998, I have spent my academic journey delving deep into these subjects, exploring their intricacies and discovering the endless possibilities they offer.My love for computer sciences drives me to explore the ever-evolving world of technology, from coding and software development to cybersecurity and artificial intelligence. 
     
@@ -513,7 +516,14 @@ I thrive on challenges and enjoy unraveling complex problems through logical thi
 
 believe in the power of education to transform lives and make a positive impact on society. With a curious mind and a thirst for knowledge, I eagerly embrace new opportunities to learn and grow, aspiring to make meaningful contributions to the fields of science and technology.</p>
 </div>
-
+ <div class="elementor-widget-container">
+        <!-- Button to toggle skills -->
+        <div class="elementor-button-wrapper">
+            <a class="elementor-button btn-skills" href="#" onclick="toggleVisibility('skills'); return false;">
+                <h4>SKILLS</h4>
+            </a>
+        </div>
+	 
 <div id="skills" class="additional-info">
 <p><h4> Coding Skills and Languages.</h4>
 <li>1.Coding: Python, Java</li>
@@ -528,7 +538,15 @@ believe in the power of education to transform lives and make a positive impact 
 
     </ul>
 </div>
-
+<div class="elementor-widget-container">
+        <!-- Button to toggle experiences -->
+        <div class="elementor-button-wrapper">
+            <a class="elementor-button btn-experiences" href="#" onclick="toggleVisibility('experiences'); return false;">
+                <h4>EXPERIENCES</h4>
+            </a>
+        </div>
+    </div>
+	 
 <div id="experiences" class="additional-info">
 <p><h4>Coding and Web Development.</h4> I am a passionate coder and web developer with a keen interest in crafting innovative digital solutions. Over the years, I have honed my skills in various programming languages and technologies, specializing in front-end and back-end web development. In my professional journey, I have tackled diverse projects ranging from creating responsive and user-friendly websites to developing robust web applications. Leveraging my expertise in HTML, CSS, and JavaScript, I have designed captivating user interfaces and implemented dynamic functionalities to enhance user experience. Moreover, I am proficient in utilizing frameworks and libraries such as React.js and AngularJS to build scalable and interactive web applications. My experience extends to server-side programming with languages like Node.js and Python, enabling me to develop efficient back-end systems and RESTful APIs. Throughout my career, I have embraced continuous learning and staying updated with emerging technologies and industry trends. This proactive approach has empowered me to adapt to evolving challenges and deliver high-quality solutions that meet the dynamic needs of clients and end-users. With a strong foundation in coding principles, coupled with a creative mindset and a drive for excellence, I am committed to pushing boundaries and contributing meaningfully to the ever-evolving field of web development.
 </p>
