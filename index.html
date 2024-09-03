@@ -376,44 +376,124 @@ Skip to content</a>
 <div class="elementor-button-wrapper">
 <title>EXPERIENCES</title>
 <style>
+	:root {
+            --color-default: #333;
+            --color-primary: #3498db;
+            --color-secondary: #2ecc71;
+            --color-tertiary: #e74c3c;
+            --color-quaternary: #9b59b6;
+            --color-quinary: #f1c40f;
+        }
         body {
-            background-color: #007bff; /* Blue background color */
-            color: white; /* Adjust text color for readability */
-            font-family: Arial, sans-serif; /* Optional: set a default font */
-            margin: 0;
-            padding: 0;
+            font-family: 'Arial', sans-serif;
+            color: var(--color-default);
+            background-color: #f8f8f8;
         }
-        .additional-info {
-            display: none;
-            margin-top: 10px;
+
+        h1 {
+            color: var(--color-primary);
         }
-        .elementor-button {
-            text-decoration: none;
-            padding: 10px 20px;
+
+        .color-option {
+            margin: 10px;
+            padding: 10px;
             border-radius: 5px;
             color: white;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-            font-weight: bold;
+            text-align: center;
         }
-        .elementor-button h4 {
-            margin: 0;
+
+        .primary {
+            background-color: var(--color-primary);
         }
-        .btn-personal-details, .btn-experiences {
-            background-color: purple;
+
+        .secondary {
+            background-color: var(--color-secondary);
+        }
+
+        .tertiary {
+            background-color: var(--color-tertiary);
+        }
+
+        .quaternary {
+            background-color: var(--color-quaternary);
+        }
+
+        .quinary {
+            background-color: var(--color-quinary);
+        }
+
+        .elementor-button {
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
             color: white;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
         }
-        .btn-skills {
-            background-color: initial; /* Default or specific color */
-            color: initial; /* Default or specific color */
+
+        .elementor-button.primary {
+            background-color: var(--color-primary);
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
+
+        .elementor-button.secondary {
+            background-color: var(--color-secondary);
         }
-        li {
-            margin: 5px 0;
+
+        .elementor-button.tertiary {
+            background-color: var(--color-tertiary);
         }
-    </style>
+
+        .elementor-button.quaternary {
+            background-color: var(--color-quaternary);
+        }
+
+        .elementor-button.quinary {
+            background-color: var(--color-quinary);
+        }
+
+        .elementor-button:hover {
+            opacity: 0.8;
+        }
+
+        .additional-info {
+            display: none;
+            border: 1px solid var(--color-primary);
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+            background-color: #fff;
+        }
+
+        .title {
+            cursor: pointer;
+            color: var(--color-primary);
+        }
+
+        .title h4 {
+            display: inline;
+        }
+    .title-container {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .title {
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    .additional-info {
+        display: none;
+    }
+     <script>
+        function toggleVisibility(id) {
+            var element = document.getElementById(id);
+            if (element.style.display === "none" || element.style.display === "") {
+                element.style.display = "block";
+            } else {
+                element.style.display = "none";
+            }
+        }
+    </script>
 </head>
 <body>
     <div class="elementor-widget-container">
