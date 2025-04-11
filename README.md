@@ -29,5 +29,6 @@ Thank you for visiting my personal resume website!
 
 ---
 
-[linkedin](https://www.linkedin.com/in/kennethkhondowe)
-[GitHub](https://github.com/KennethTebogo)
+-[linkedin](https://www.linkedin.com/in/kennethkhondowe)
+
+-[GitHub](https://github.com/KennethTebogo)
