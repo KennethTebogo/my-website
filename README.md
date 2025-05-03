@@ -23,12 +23,12 @@ Use the navigation menu at the top of the website to move between sections. Each
 
 ## Contact
 
-If you have any questions, opportunities, or would like to connect, please visit the [0713594289](#contact) section on the website or reach out to me via email at [E-mail](kennethtebogo17@gmail.com).
+If you have any questions, opportunities, or would like to connect, please visit the [0713594289](#contact) section on the website or reach out to me via email at [kennethtebogo17@gmail.com](#email).
 
 Thank you for visiting my personal resume website!
 
 ---
 
--[linkedin](https://www.linkedin.com/in/kennethkhondowe)
+-[https://www.linkedin.com/in/kennethkhondowe](#linkedin)
 
--[GitHub](https://github.com/KennethTebogo)
+-[https://github.com/KennethTebogo](#github)
